@@ -1,0 +1,40 @@
+html,
+body{
+height: 100%;
+background-image: url(img/bg-img-2.jpg);
+background-repeat: no-repeat;
+}
+
+.wrapper{
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end !important;
+}
+
+main{
+flex: 1 1 auto;
+}
+
+.col-auto{
+    padding-bottom:7px;
+}
+
+.icon-google{
+    color: white;
+}
+
+.icon-facebook-squared{
+    color: white;
+}
+
+.icon-twitter{
+    color: white;
+}
+.text-secondary{
+    text-decoration: none;
+}
